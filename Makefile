@@ -368,7 +368,7 @@ endif
 
 
 ESP8266_NONOS_SDK-2.1.0.zip:
-	wget --content-disposition "https://github.com/espressif/ESP8266_NONOS_SDK/archive/v2.1.0.zip"
+	wget --content-disposition --no-check-certificate "https://github.com/espressif/ESP8266_NONOS_SDK/archive/v2.1.0.zip"
 # The only change wrt to ESP8266_NONOS_SDK_V2.0.0_16_07_19.zip is licensing blurb in source/
 # header files. Libs are the same (and patch is required just the same).
 ESP8266_NONOS_SDK_V2.0.0_16_08_10.zip:
